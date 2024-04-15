@@ -160,7 +160,9 @@ def limpiar_nombre(nombre):
 # Genera el enlace para Qualtrics con el nombre limpio
 if nombre_seleccionado:
     nombre_limpio = limpiar_nombre(nombre_seleccionado)
-    enlace_qualtrics = f"https://uchiledii.qualtrics.com/jfe/form/SV_0kTBR8a2mcMeXoq?nombre={nombre_limpio}"
+#    enlace_qualtrics = f"https://uchiledii.qualtrics.com/jfe/form/SV_0kTBR8a2mcMeXoq?nombre={nombre_limpio}"
+    enlace_qualtrics = f"https://uchiledii.qualtrics.com/jfe/form/SV_ezLq4FfZGxgHTVQ?nombre={nombre_limpio}"
+    
     st.write(f'Tu enlace personalizado para la encuesta es: {enlace_qualtrics}')
 
 
