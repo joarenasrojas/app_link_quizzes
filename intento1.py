@@ -162,7 +162,9 @@ if nombre_seleccionado:
     nombre_limpio = limpiar_nombre(nombre_seleccionado)
 #    enlace_qualtrics = f"https://uchiledii.qualtrics.com/jfe/form/SV_0kTBR8a2mcMeXoq?nombre={nombre_limpio}"
 #    enlace_qualtrics = f"https://uchiledii.qualtrics.com/jfe/form/SV_ezLq4FfZGxgHTVQ?nombre={nombre_limpio}"
-    enlace_qualtrics = f"https://uchiledii.qualtrics.com/jfe/form/SV_d4pynkPt0TcWkLA?nombre={nombre_limpio}"
+#    enlace_qualtrics = f"https://uchiledii.qualtrics.com/jfe/form/SV_d4pynkPt0TcWkLA?nombre={nombre_limpio}"
+    enlace_qualtrics = f"hhttps://uchiledii.qualtrics.com/jfe/form/SV_6Xa7fwTeWgGo4Rw?nombre={nombre_limpio}"
+
     
     st.write(f'Tu enlace personalizado para la encuesta es: {enlace_qualtrics}')
 
